@@ -1,0 +1,73 @@
+.confirm__content {
+  margin: 0 auto;
+  padding: 30px 15px;
+  max-width: 1230px;
+}
+
+.confirm__heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.form {
+  text-align: center;
+}
+
+.confirm-table__inner {
+  width: 100%;
+}
+
+.confirm-table__header {
+  width: 30%;
+  font-weight: bold;
+  padding-bottom: 60px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.confirm-table__text {
+  padding-bottom: 60px;
+}
+
+.confirm-table__text input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+  border-bottom-width: 0;
+}
+
+.form__button {
+  margin-top: 30px;
+}
+
+.form__button-submit {
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+}
+
+textarea {
+    width: 100%; /* 親要素の幅に合わせる */
+    height: 150px; /* 適切な高さを設定する */
+    border: none;
+}
+
+.form__return a {
+    color: black; /* 文字色を黒に設定 */
+}

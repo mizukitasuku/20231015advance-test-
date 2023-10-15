@@ -1,0 +1,137 @@
+.contact-form__content {
+  margin: 0 auto;
+  padding: 30px 15px;
+  max-width: 1230px;
+}
+
+.contact-form__heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  width: 70%;
+  text-align:center;
+  font-weight:bold
+}
+
+.form__group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: top;
+}
+
+.form__group-title {
+  padding-top: 5px;
+}
+
+.form__group-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form__group-gender {
+  display:flex;
+  width: 530px;
+  align-items: center;
+}
+
+input[type="radio"] {
+  width: 50px; /* ここには望むサイズを指定 */
+  height: 30px; /* ここには望むサイズを指定 */
+}
+
+.form__label--required {
+  margin-left: 5px;
+  padding: 4px 6px;
+  color: red;
+}
+
+.form__error {
+    height: 20px;
+    text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.form__error--before {
+  height: 20px;
+  color: rgba(128, 128, 128, 0.593);
+}
+
+.form__error--after {
+  height: 20px;
+  color: #ff0000;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+  padding: 10px;
+  width: 530px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  appearance: none;
+}
+
+.form__input--text1 input,
+.form__input--text2 input {
+  height: 40px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  appearance: none;
+}
+
+.form__input--text input {
+  height: 40px;
+}
+
+.form__input--text3 input {
+  padding: 10px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  appearance: none;
+}
+
+.form__group-content--box1 {
+  margin-right: 15px;
+}
+
+.form__group-content--box2 {
+  margin-left: 15px;
+}
+
+.form__group-content--box4 {
+  width: 30px;
+}
+
+.form__group-content--box5 {
+  width: 500px;
+}
+
+.form__input--textarea textarea {
+  height: 180px;
+}
+
+.form__button {
+  margin-top: 30px;
+}
+
+.form__button-submit {
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+}
